@@ -1,6 +1,6 @@
 /*---emplacement des fonts-----*/
 
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 
 
 /*----------------------------*/
@@ -18,18 +18,86 @@ html{
 body{
     margin: 0;
     padding: 0;
+    background-color: #F0F0F0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+/*----------------------------------------------------------*/
+/*-------------version mobile-------------------------------*/
+/*----------------------------------------------------------*/
+
+/*-------------header-----------------*/
+header{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 13vh;
+    left: 0px;
+    top: 0px;
+    background: #CF0233;
+    border-radius: 0px 0px 20px 20px;
+}
+
+header img{
+    width: 40%;
+    height: 45%;
+    margin-bottom: 2%;
+}
+
+/*----------haut de page / photo et description-----*/
+
+.containerH1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 5vh;
+}
+.hautDePage img{ 
+    width: 100%;
+    height: 35vh;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35));
+    border-radius: 27px;
+}
+
+h1{
+    color: white;
+    font-size: 5em;
+    position: absolute;
+    z-index: 1;
+    transform : rotate(-5deg);
+    transform : rotate(-5deg);
+
+}
+
+.hautDePage p{
+    width: 85%;
+    margin: 10vh auto 10vh auto;
+    text-align: justify;
+    font-size: 1.8rem;
 }
 
 
+/*--------------------cards-----------------*/
 
+
+.cards{
+    width: 85%;
+    margin: auto;
+}
+
+/*----------------------------------------------------------*/
 /*---------pour tous les ecrans de plus de 768px------------*/
+/*----------------------------------------------------------*/
+
 @media screen and (min-width : 768px) {
     
 }
 
 
-
+/*----------------------------------------------------------*/
 /*---------pour tous les ecrans de plus de 768px------------*/
+/*----------------------------------------------------------*/
+
 @media screen and (min-width : 1024px) {
 
 }
