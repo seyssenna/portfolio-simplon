@@ -1,0 +1,35 @@
+/*---emplacement des fonts-----*/
+
+
+
+
+/*----------------------------*/
+
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%; /* 1rem = 10 px*/
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*---------pour tous les ecrans de plus de 768px------------*/
+@media screen and (min-width : 768px) {
+    
+}
+
+
+
+/*---------pour tous les ecrans de plus de 768px------------*/
+@media screen and (min-width : 1024px) {
+
+}
