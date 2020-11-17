@@ -26,20 +26,66 @@ body {
 /*-------------header-----------------*/
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-end;
   width: 100%;
   height: 13vh;
   left: 0px;
   top: 0px;
   background: #cf0233;
-  border-radius: 0px 0px 20px 20px;
+  /* border-radius: 0px 0px 20px 20px; */
 }
 
 header img {
   width: 40%;
   height: 45%;
   margin-bottom: 2%;
+  margin-left: 10px;
+}
+
+/*-----------------burger---------------*/
+.burger{
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+.burger div{
+  width: 25px;
+  height: 3px;
+  background-color: rgb(235, 235, 235);
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+header ul{
+  display: none;
+}
+.navActive{
+  position: absolute;
+  right: 0px;
+  height: 87vh;
+  top: 13vh;
+  background-color: #cf0233;
+  z-index: 5;
+  padding: 0;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around
+}
+header li{
+  list-style: none;
+  font-size: 1.8rem;
+  color: rgb(235, 235, 235);
+}
+
+.toggle .line1{
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2{
+  opacity: 0;
+}
+.toggle .line3{
+  transform: rotate(45deg) translate(-5px, -6px);
 }
 
 /*----------haut de page / photo et description-----*/
